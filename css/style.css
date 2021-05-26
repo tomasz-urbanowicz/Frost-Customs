@@ -21,14 +21,14 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: -1 ;
+    z-index: -1;
 }
 
 /*****************/
 /*   NAVIGATION  */
 /*****************/
 
-.nav {
+nav {
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -46,3 +46,94 @@ body {
 /*****************/
 /*    HEADER     */
 /*****************/
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-item-one {
+    background-image: url("../img/main-carousel-1.jpg");
+}
+
+.carousel-item-two {
+    background-image: url("../img/main-carousel-2.jpg");
+}
+
+.carousel-item-three {
+    background-image: url("../img/main-carousel-3.jpg");
+}
+
+/*****************/
+/*    HOME       */
+/*****************/
+
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box .i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+/****************/
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url("../img/home-passion.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+/****************/
+
+.home-brand h3 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/*****************/
+/*    HOME       */
+/*****************/
+
+footer {
+    font-size: 1.6rem;
+}
+
+@media (min-width: 1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-item-one {
+        background-image: url("../img/main-carousel-1-hq.jpg");
+    }
+
+    .carousel-item-two {
+        background-image: url("../img/main-carousel-2-hq.jpg");
+    }
+
+    .carousel-item-three {
+        background-image: url("../img/main-carousel-3-hq.jpg");
+    }
+}
+
+
+
+
+
+
+
