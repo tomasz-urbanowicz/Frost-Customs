@@ -263,6 +263,46 @@ header {
     text-transform: uppercase;
 }
 
+
+/********************/
+/*  CONTACT PAGE    */
+/********************/
+
+.contact-hero {
+    background-image: url("../img/contact/contact-hero.jpg");
+    background-position: center;
+}
+
+.contact h2,
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: 0.3rem 0.8rem;
+    font-size: 2rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
 /*****************/
 /*    footer     */
 /*****************/
